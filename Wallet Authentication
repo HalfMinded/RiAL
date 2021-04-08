@@ -1,0 +1,292 @@
+import 'package:flutter/material.dart';
+import 'package:adobe_xd/pinned.dart';
+import 'package:adobe_xd/blend_mask.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+
+class WalletAuthentication extends StatelessWidget {
+  WalletAuthentication({
+    Key key,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xffffffff),
+      body: Stack(
+        children: <Widget>[
+          Transform.translate(
+            offset: Offset(-399.4, 546.1),
+            child: Transform.rotate(
+              angle: -1.3788,
+              child: SizedBox(
+                width: 1305.0,
+                height: 1257.0,
+                child: Stack(
+                  children: <Widget>[
+                    Pinned.fromSize(
+                      bounds: Rect.fromLTWH(0.0, 0.0, 1270.5, 1256.9),
+                      size: Size(1304.8, 1256.9),
+                      pinLeft: true,
+                      pinRight: true,
+                      pinTop: true,
+                      pinBottom: true,
+                      child: SvgPicture.string(
+                        _svg_sm3h2p,
+                        allowDrawingOutsideViewBox: true,
+                        fit: BoxFit.fill,
+                      ),
+                    ),
+                    Pinned.fromSize(
+                      bounds: Rect.fromLTWH(58.4, 106.4, 1246.4, 1052.8),
+                      size: Size(1304.8, 1256.9),
+                      pinLeft: true,
+                      pinRight: true,
+                      pinTop: true,
+                      pinBottom: true,
+                      child: SvgPicture.string(
+                        _svg_l7m0v1,
+                        allowDrawingOutsideViewBox: true,
+                        fit: BoxFit.fill,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(141.2, 235.1),
+            child: SvgPicture.string(
+              _svg_tuinr0,
+              allowDrawingOutsideViewBox: true,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(40.0, 211.0),
+            child: Text(
+              'Wallet linked to +91 *** *** XXXX',
+              style: TextStyle(
+                fontFamily: 'Segoe UI',
+                fontSize: 22,
+                color: const Color(0x802b475c),
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w700,
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(40.0, 263.0),
+            child: Text(
+              'Pay from:',
+              style: TextStyle(
+                fontFamily: 'Segoe UI',
+                fontSize: 28,
+                color: const Color(0xff2b475c),
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w700,
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(-446.4, -946.7),
+            child: Transform.rotate(
+              angle: 1.8675,
+              child: SizedBox(
+                width: 1305.0,
+                height: 1257.0,
+                child: Stack(
+                  children: <Widget>[
+                    Pinned.fromSize(
+                      bounds: Rect.fromLTWH(0.0, 0.0, 1270.5, 1256.9),
+                      size: Size(1304.8, 1256.9),
+                      pinLeft: true,
+                      pinRight: true,
+                      pinTop: true,
+                      pinBottom: true,
+                      child: SvgPicture.string(
+                        _svg_sm3h2p,
+                        allowDrawingOutsideViewBox: true,
+                        fit: BoxFit.fill,
+                      ),
+                    ),
+                    Pinned.fromSize(
+                      bounds: Rect.fromLTWH(58.4, 106.4, 1246.4, 1052.8),
+                      size: Size(1304.8, 1256.9),
+                      pinLeft: true,
+                      pinRight: true,
+                      pinTop: true,
+                      pinBottom: true,
+                      child: SvgPicture.string(
+                        _svg_l7m0v1,
+                        allowDrawingOutsideViewBox: true,
+                        fit: BoxFit.fill,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(133.0, 95.9),
+            child: BlendMask(
+              blendMode: BlendMode.darken,
+              child: Container(
+                width: 164.0,
+                height: 115.2,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: const AssetImage(''),
+                    fit: BoxFit.fill,
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(35.0, 318.0),
+            child: SizedBox(
+              width: 171.0,
+              height: 175.0,
+              child: Stack(
+                children: <Widget>[
+                  Pinned.fromSize(
+                    bounds: Rect.fromLTWH(0.0, 0.0, 171.0, 175.0),
+                    size: Size(171.0, 175.0),
+                    pinLeft: true,
+                    pinRight: true,
+                    pinTop: true,
+                    pinBottom: true,
+                    child: Stack(
+                      children: <Widget>[
+                        Pinned.fromSize(
+                          bounds: Rect.fromLTWH(0.0, 0.0, 171.0, 175.0),
+                          size: Size(171.0, 175.0),
+                          pinLeft: true,
+                          pinRight: true,
+                          pinTop: true,
+                          pinBottom: true,
+                          child: Stack(
+                            children: <Widget>[
+                              Pinned.fromSize(
+                                bounds: Rect.fromLTWH(0.0, 16.0, 171.0, 159.0),
+                                size: Size(171.0, 175.0),
+                                pinLeft: true,
+                                pinRight: true,
+                                pinTop: true,
+                                pinBottom: true,
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(18.0),
+                                    color: const Color(0xffffffff),
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: const Color(0x40000000),
+                                        offset: Offset(0, 3),
+                                        blurRadius: 6,
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                              Pinned.fromSize(
+                                bounds: Rect.fromLTWH(10.0, 0.0, 152.0, 152.0),
+                                size: Size(171.0, 175.0),
+                                pinLeft: true,
+                                pinRight: true,
+                                pinTop: true,
+                                pinBottom: true,
+                                child:
+                                    // Adobe XD layer: 'paytm' (shape)
+                                    Container(
+                                  decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                      image: const AssetImage(''),
+                                      fit: BoxFit.fill,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  Pinned.fromSize(
+                    bounds: Rect.fromLTWH(39.0, 135.0, 100.0, 27.0),
+                    size: Size(171.0, 175.0),
+                    pinBottom: true,
+                    fixedWidth: true,
+                    fixedHeight: true,
+                    child: Text(
+                      'Rs. 1200.00',
+                      style: TextStyle(
+                        fontFamily: 'Segoe UI',
+                        fontSize: 20,
+                        color: const Color(0xb52b475c),
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                      ),
+                      textAlign: TextAlign.left,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(302.0, 656.0),
+            child: Text(
+              'NA',
+              style: TextStyle(
+                fontFamily: 'Segoe UI',
+                fontSize: 20,
+                color: const Color(0xb52b475c),
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w600,
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(84.0, 656.0),
+            child: Text(
+              'Rs. 62.00',
+              style: TextStyle(
+                fontFamily: 'Segoe UI',
+                fontSize: 20,
+                color: const Color(0xb52b475c),
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w600,
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          Transform.translate(
+            offset: Offset(267.0, 459.0),
+            child: Text(
+              'Rs. 678.00',
+              style: TextStyle(
+                fontFamily: 'Segoe UI',
+                fontSize: 20,
+                color: const Color(0xb52b475c),
+                fontStyle: FontStyle.italic,
+                fontWeight: FontWeight.w600,
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+const String _svg_sm3h2p =
+    '<svg viewBox="-553.1 -801.7 1270.5 1256.9" ><defs><filter id="shadow"><feDropShadow dx="0" dy="3" stdDeviation="6"/></filter></defs><path transform="matrix(-0.766045, -0.642788, 0.642788, -0.766045, 223.75, 398.58)" d="M 476 0 C 665.1954345703125 -242.8671417236328 952 171.9226684570313 952 384 C 952 596.0773315429688 738.8875732421875 768 476 768 C 213.1124572753906 768 0 596.0773315429688 0 384 C 0 171.9226684570313 286.8045654296875 242.8671417236328 476 0 Z" fill="#37c2dc" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" filter="url(#shadow)"/></svg>';
+const String _svg_l7m0v1 =
+    '<svg viewBox="-494.7 -695.3 1246.4 1052.8" ><defs><filter id="shadow"><feDropShadow dx="0" dy="3" stdDeviation="6"/></filter></defs><path transform="matrix(-0.978148, -0.207912, 0.207912, -0.978148, 452.25, 253.87)" d="M 476 0 C 673.6752319335938 -246.9093780517578 952 171.9226684570313 952 384 C 952 596.0773315429688 738.8875732421875 768 476 768 C 292.2416076660156 768 158.1019439697266 675.7612915039063 93.89633178710938 547.5980834960938 C 66.39467620849609 492.7012939453125 40.65891265869141 425.183349609375 40.65891265869141 361.3480529785156 C 37.26495742797852 245.7428741455078 -223.7220916748047 296.13330078125 -117.5420989990234 252.9723205566406 C -27.63969612121582 216.4280548095703 385.2670593261719 113.3314056396484 476 0 Z" fill="#fddb27" stroke="none" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" filter="url(#shadow)"/></svg>';
+const String _svg_tuinr0 =
+    '<svg viewBox="141.2 235.1 1.0 1.0" ><path transform="translate(1916.0, -344.0)" d="M -1774.782592773438 579.1364135742188" fill="none" stroke="#707070" stroke-width="1" stroke-miterlimit="4" stroke-linecap="butt" /></svg>';
